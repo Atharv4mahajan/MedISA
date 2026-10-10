@@ -237,5 +237,148 @@ export const members = [
   }
 
   // 2025 joinees end 
-];
+  
+  ,
+  { 
+    name: "Chandra Manglani",   
+    program: "M.Tech AI (2025-2026)", 
+    research: "Deep learning for image synthesis, temporal disease  modeling and genomics; Computational systems; AI intersection with VLSI-CAD", 
+    description: " Developed a metadata- and time-conditioned extension of ImageFlowNet for personalized longitudinal glioblastoma MRI forecasting, using static patient characteristics and clinical time to drive Neural ODE dynamics. Improved the reliability of the experimental pipeline and demonstrated gains in image fidelity and anatomical accuracy, while investigating mechanisms for stronger metadata utilization and personalized disease trajectories.", 
+    github: "github.com/ChandraM-code", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  }
+  ,
+  { 
+    name: "Devi Prasad Maharathy", 
+    program: "M.Tech AI (2022-2025)", 
+    research: "Few-shot learning, class-incremental learning, medical image analysis", 
+    description: "Attention-Based Few-Shot Diagnosis of Chest X-Rays Using Semantic Signatures:This work presents a few-shot learning framework for chest X-ray diagnosis designed to address the challenge of limited labeled medical imaging data. The proposed approach uses an attention mechanism to improve the extraction of diagnostically relevant visual features from chest X-rays. It further incorporates semantic signatures representing abnormalities as auxiliary information, guiding the few-shot learning process and improving the model's ability to generalize from limited examples. Experiments on multiple publicly available chest X-ray datasets demonstrate performance improvements of up to 8% over several existing state-of-the-art few-shot learning approaches..", 
+    github: "https://github.com/dpmaharathy", 
+    portfolio: null,
+    group: null
+  }
+  ,
 
+  { 
+    name: "Rahul Mandal", 
+    program: "M.Sc.-M.Tech DCS (2025-2029)", 
+    research: "Generative AI for Medical Imaging and MRI Reconstruction", 
+    description: "I work on generative AI for MRI motion-artifact correction and medical image reconstruction. My current research explores VAE-based latent-space transformation and wavelet-guided generative modeling to recover high-quality MRI while preserving anatomical structure",
+    github: "https://github.com/rahulmandal2004", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  } ,
+
+  { 
+    name: "Krishna Thoriya", 
+    program: "B.Tech EE (2019-2023)", 
+    research: "Deep Learning, Medical Imaging, Anomaly Detection, Computer Vision", 
+    description: "Developed a deep learning-based computer vision workflow to automate identification, classification and segmentation of medical histopathology slides. Implemented customized Convolutional Neural Networks to optimise the process. Further expanded the research to facilitate few-shot learning and multi-task learning abilities of the customised model and recorded an improvement of 30-40% in recognising abnormalities leaving the conventional models behind in carcinoma classification and segmentation.",
+    github:"https://github.com/Krishna0312",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Rakshith R Pai", 
+    program: "M.Tech AI (2025-2026)", 
+    research: "Serverless Federated learning", 
+    description: "My research focuses on decentralized, gossip-based Federated Learning for privacy-preserving chest X-ray classification across multiple institutions. The work explores quality-aware peer aggregation, allowing participating institutions to collaboratively improve model performance without directly sharing sensitive patient data.",
+    github:"https://github.com/rakshithpai93",
+    portfolio: null,
+    group: "Heterogeneous Federated Learning"
+  },
+
+  { 
+    name: "Akash Chatterjee", 
+    program: "M.Tech ARVR (2023-2025)", 
+    research: "Deep Learning, Generative AI", 
+    description: "Developed a data-driven traffic simulation framework integrating LSTM, GRU, and Transformer architectures for real-time urban traffic prediction on the NGSIM US-101 dataset. Introduced the Vehicle Situation-Aware Loss (VSAL) function — a six-component context-aware loss for multi-objective trajectory prediction. Published at CVIP 2025.",
+    github:"https://github.com/Akashchatterj",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Radhasyam Nunna", 
+    program: "B.Tech CS (2021-2023)", 
+    research: "Federated Learning, Machine Learning, Medical Image Analysis", 
+    description: "Worked on Federated Learning for Chest Radiograph Classification, exploring privacy-preserving distributed machine learning for medical image analysis. The project focused on training deep learning models across multiple institutions without directly sharing sensitive patient data. A DenseNet-121 based approach was used for chest radiograph classification. This research is published in SPIE Medical Imaging, 2023.",
+    github:"https://github.com/RadhasyamNunna",
+    portfolio: null,
+    group: "Heterogeneous Federated Learning"
+  },
+
+  { 
+    name: "Harshith Kethireddy", 
+    program: "B.Tech AI (2023-2024)", 
+    research: "Machine Learning, Reinforcement Learning", 
+    description: "My research spans reinforcement learning, computer vision, and machine learning. My Master’s thesis, JPRL, focused on improving offline preference-based reinforcement learning through latent representations and distinguishability-based reward learning. I also have 2 research papers published on thyroid diagnosis using multimodal fusion autoencoders, and aerial object detection.",
+    github:"https://github.com/HarshithK13",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Mangaldeep Banerjee", 
+    program: "M.Tech AI (2021-2023)", 
+    research: "Federated Learning for Medical Image Analysis", 
+    description: "-FedImp: Federated Learning Using Important Layers of Client Models for the Diagnosis of Breast Cancer Histopathology Images (IEEE ICASSP 2025, with Prof. Angshuman Paul, IIT Jodhpur).Deep learning for breast cancer histopathology is constrained by institutional data silos — patient data can't leave the hospital, and slides vary substantially across scanners and staining protocols, producing severely non-IID distributions across sites. Federated learning addresses the privacy constraint, but naive aggregation (e.g. FedAvg) degrades under this heterogeneity. FedImp addresses this by identifying the important layers of client models and weighting them accordingly during server-side aggregation, rather than treating all parameters uniformly. This reduces the deviation between client models and the global model, improving diagnostic performance on heterogeneous histopathology data without any sharing of raw patient images.",
+    github:"https://github.com/deepMB",
+    portfolio: null,
+    group: "Heterogeneous Federated Learning"
+  },
+
+  { 
+    name: "Keshava Chowdari Dabbara", 
+    program: "B.Tech CS (2021-2023)", 
+    research: "Federated Learning for Medical Image Analysis", 
+    description: "Worked on Federated Learning for Chest Radiograph Classification, exploring privacy-preserving distributed machine learning for medical image analysis. The project focused on training deep learning models across multiple institutions without directly sharing sensitive patient data. A DenseNet-121 based approach was used for chest radiograph classification. This research is published in SPIE Medical Imaging, 2023.Research Paper: Federated learning using multi-institutional data for generalizable chest X-ray classification(https://doi.org/10.1117/12.2652553)",
+    github:"https://github.com/keshavchowdary",
+    portfolio: null,
+    group: "Heterogeneous Federated Learning"
+  },
+
+  { 
+    name: "Sougata Moi", 
+    program: "M.Tech DCS (2023-2025)", 
+    research: "Computer Vision, Generative AI, Diffusion Models, Multimodal Learning. ", 
+    description: "My research work has primarily focused on computer vision and generative AI, particularly diffusion models and multimodal representation learning. I have also worked on optimizing and deploying foundation models, including efficient training and inference of generative and multimodal models.",
+    github:"https://github.com/sm1899",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Gautam Kumar", 
+    program: "B.Tech EE (2022-2023)", 
+    research: "Medical Image Analysis. ", 
+    description: "Development of ExLNet, an extremely lightweight CNN model utilizing novel DCISE blocks to achieve high binary and multi-class diagnostic accuracy on chest radiographs while significantly reducing computational requirements.",
+    github:"https://github.com/gautamHCSCV",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Harsh Parashar", 
+    program: "M.Tech AI (2024-2026)", 
+    research: "Computer Vision, Few-Shot Learning, Medical Image Generation & Synthesis. ", 
+    description: "Worked on data-efficient deep generative architecture (few-shot generative models) that create realistic medical scans from just a handful of images, helping overcome healthcare data shortages to boost diagnostic performance.",
+    github:"https://github.com/parasharharsh16",
+    portfolio: null,
+    
+    group: null
+  },
+
+  { 
+    name: "Laksh Mendpara", 
+    program: "B.Tech CS (2024)", 
+    research: "Diffusion Models, Medical Imaging, 3D Volume Generation, Multimodal Alignment.", 
+    description: "Worked on improving semantic faithfulness and compositional control in text-to-image generation, including entity binding, spatial relationships, and attribute consistency; currently developing compute-efficient 3D medical volume generation methods for MRI/CT that preserve global anatomy and fine structural details.",
+    github:"https://github.com/Laksh-Mendpara/",
+    portfolio: null,
+    group: null
+  }
+
+];
