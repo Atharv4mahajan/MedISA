@@ -164,7 +164,6 @@ export const members = [
     group: "Affordable MRI synthesis"
   },
   { 
-<<<<<<< HEAD
     name: "Hrishita Das", 
     program: "M.Tech CSE (2025)", 
     research: "Low-Field to High-Field MRI Enhancement", 
@@ -226,7 +225,6 @@ export const members = [
     github: "https://github.com/Zobya", 
     portfolio: null,
     group: "Machine Unlearning and Federated Learning"
-=======
     name: "Priya Barange", 
     program: "M.Tech CSE (2023 - 2025)", 
     research: "Super resolution of x-ray images using diffusion probabilistic models", 
@@ -234,7 +232,6 @@ export const members = [
     github: null, 
     portfolio: null,
     group: "Image SuperResolution"
->>>>>>> 887e433b2366f6f4e6604c187334c919334cf1e1
   }
 
   // 2025 joinees end 
