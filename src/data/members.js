@@ -152,6 +152,15 @@ export const members = [
     github: " https://github.com/svj31", 
     portfolio: null,
     group: "Affordable MRI synthesis"
+  },
+  { 
+    name: "Priya Barange", 
+    program: "M.Tech CSE (2023 - 2025)", 
+    research: "Super resolution of x-ray images using diffusion probabilistic models", 
+    description: "My thesis offers a comprehensive comparison examination of two advanced diffusion-based super-resolution models, SRDiff and SR3, assessing their effectiveness in enhancing picture resolution, fidelity, and computational efficiency. SRDiff, an edge-guided diffusion model, utilises edge information to improve structural features, whereas SR3, a stochastic denoising diffusion model, incrementally enhances images via noise reduction. The research assesses each model using several datasets, encompassing natural, medical, and synthetic images, to determine generalisability and robustness.", 
+    github: null, 
+    portfolio: null,
+    group: "Image SuperResolution"
   }
 ];
 
