@@ -226,6 +226,16 @@ export const members = [
     portfolio: null,
     group: "Machine Unlearning and Federated Learning"
   },
+  { 
+    name: "Rahul Mandal", 
+    program: "M.Sc.-M.Tech DCS (2025)", 
+    research: "Generative AI for Medical Imaging and MRI Reconstruction", 
+    description: "I work on generative AI for MRI motion-artifact correction and medical image reconstruction. My current research explores VAE-based latent-space transformation and wavelet-guided generative modeling to recover high-quality MRI while preserving anatomical structure",
+    github: "https://github.com/rahulmandal2004", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  },
+  // 2025 joinees end 
   {  
     name: "Priya Barange", 
     program: "M.Tech CSE (2023 - 2025)", 
@@ -234,11 +244,7 @@ export const members = [
     github: null, 
     portfolio: null,
     group: "Image SuperResolution"
-  }
-
-  // 2025 joinees end 
-  
-  ,
+  },
   { 
     name: "Chandra Manglani",   
     program: "M.Tech AI (2025-2026)", 
@@ -257,19 +263,7 @@ export const members = [
     github: "https://github.com/dpmaharathy", 
     portfolio: null,
     group: null
-  }
-  ,
-
-  { 
-    name: "Rahul Mandal", 
-    program: "M.Sc.-M.Tech DCS (2025-2029)", 
-    research: "Generative AI for Medical Imaging and MRI Reconstruction", 
-    description: "I work on generative AI for MRI motion-artifact correction and medical image reconstruction. My current research explores VAE-based latent-space transformation and wavelet-guided generative modeling to recover high-quality MRI while preserving anatomical structure",
-    github: "https://github.com/rahulmandal2004", 
-    portfolio: null,
-    group: "Affordable MRI synthesis"
-  } ,
-
+  },
   { 
     name: "Krishna Thoriya", 
     program: "B.Tech EE (2019-2023)", 

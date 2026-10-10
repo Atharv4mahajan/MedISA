@@ -23,6 +23,7 @@ const getYears = (program) => {
 const normalizeProgram = (program) => {
   if (/phd/i.test(program)) return "PhD";
   if (/m\.?tech/i.test(program)) return "M.Tech";
+  if (/b\.?tech/i.test(program)) return "B.Tech";if (/b\.?tech/i.test(program)) return "B.Tech";
   return program;
 };
 
