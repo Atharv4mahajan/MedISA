@@ -1,13 +1,14 @@
 export const members = [
   { 
     name: "Nivedita Gupta", 
-    program: "M.Tech CSE (2024)", 
+    program: "M.Tech CSE (2024 - 2026)", 
     research: "Medical Image Super-Resolution using Generative Models", 
     description: "My research focuses on enhancing CT image quality using diffusion-based generative models. Building on prior work with 3D soft-quantized VQ-VAE, I aim to improve anatomical detail preservation while generating high-resolution, diagnostically reliable images.", 
     github: "https://github.com/NiveditaGuptaaa", 
     portfolio: null,
     group: "Image SuperResolution"
   },
+
   { 
     name: "Aditi Ashish Baheti", 
     program: "M.Tech AI (2023 - 2025)", 
@@ -142,6 +143,15 @@ export const members = [
     github: "https://github.com/mahawar2", 
     portfolio: "https://sites.google.com/iitj.ac.in/jayantmahawar",
     group: "Visual Question Answering"
+  },
+  { 
+    name: "Shrusti Jain", 
+    program: "M.Tech CSE (2025)", 
+    research: "Multi-Sequence MRI Synthesis", 
+    description: "My research focuses on synthesizing missing MRI sequences from available sequences using generative deep learning techniques. The work aims to preserve anatomical consistency and improve quality and physical plausibility of synthesized 3D MRI data.", 
+    github: " https://github.com/svj31", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
   }
 ];
 
