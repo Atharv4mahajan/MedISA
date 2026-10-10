@@ -162,6 +162,81 @@ export const members = [
     github: " https://github.com/svj31", 
     portfolio: null,
     group: "Affordable MRI synthesis"
+  },
+  { 
+<<<<<<< HEAD
+    name: "Hrishita Das", 
+    program: "M.Tech CSE (2025)", 
+    research: "Low-Field to High-Field MRI Enhancement", 
+    description: "My research focuses on developing deep learning and generative modeling approaches for enhancing low-field MRI toward high-field MRI. My work aims to improve image quality while preserving anatomical information in medical imaging.", 
+    github: " https://github.com/hrishita-das", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  },
+  { 
+    name: "Arjun Baidya", 
+    program: "M.Tech AI (2025)", 
+    research: "Dataset PoisoningMachine Unlearning", 
+    description: "I am currently researching robust deep learning defenses at the intersection of dataset poisoning detection and machine unlearning. My work focuses on identifying malicious training interventions, specifically label-flipping poisoning attacks.", 
+    github: "https://github.com/arjunbaidya", 
+    portfolio: null,
+    group: "Machine Unlearning"
+  },
+  { 
+    name: "Kapil Akanksha", 
+    program: "M.Tech AI (2025)", 
+    research: "Medical Visual Question Answering", 
+    description: "I am working on Medical Visual Question Answering using  Vision-Language Models and Large Language Models. My research explores how these models can understand medical information and support clinical conversations.", 
+    github: "https://github.com/akankshakapil", 
+    portfolio: null,
+    group: "Visual Question Answering"
+  },
+  { 
+    name: "Atharv Mahajan", 
+    program: "M.Tech CPS (2025)", 
+    research: "Preventing Attacks on Vision-Language Models (VLMs)", 
+    description: "My research focuses on improving the security and reliability of Vision-Language Models (VLMs) against attacks. The work explores techniques to make these models more robust, consistent, and trustworthy when handling potentially malicious inputs.", 
+    github: "https://github.com/Atharv4mahajan", 
+    portfolio: null,
+    group: "Visual Question Answering"
+  }, 
+  { 
+    name: "Ali Asad Quasim", 
+    program: "M.Tech DCS (2025)", 
+    research: "3D Medical Image Super-Resolution", 
+    description: "My research encompasses around enhancing the diagnostic ability of medical images by exploring and building upon recent generative models for medical image super-resolution using variants of transformers.", 
+    github: "https://github.com/aliasad20", 
+    portfolio: "https://ali-asad-quasim.netlify.app",
+    group: "Image SuperResolution"
+  }, 
+  { 
+    name: "Vidushi Mittal", 
+    program: "M.Tech DCS (2025)", 
+    research: "3D Medical Image Synthesis for Radiotherapy.", 
+    description: "My research focuses on the intersection of deep learning and medical physics, specifically leveraging advanced generative artificial intelligence to synthesize high-quality CTs from CBCT scans. Ultimately, this research aims to improve image reliability and structural accuracy, supporting safer and more precise clinical treatment planning and patient care.", 
+    github: "https://github.com/Vidushi-Mittal", 
+    portfolio: null,
+    group: "Medical Image synthesis"
+  },
+  { 
+    name: "Zobiya Khalid", 
+    program: "M.Tech DCS (2025)", 
+    research: "Federated Unlearning", 
+    description: "My research focuses on developing a task-selective federated unlearning framework that removes corrupted data contributions from heterogeneous classification and/or segmentation tasks by identifying task-specific influence within shared model parameters, while preserving useful knowledge across tasks.", 
+    github: "https://github.com/Zobya", 
+    portfolio: null,
+    group: "Machine Unlearning and Federated Learning"
+=======
+    name: "Priya Barange", 
+    program: "M.Tech CSE (2023 - 2025)", 
+    research: "Super resolution of x-ray images using diffusion probabilistic models", 
+    description: "My thesis offers a comprehensive comparison examination of two advanced diffusion-based super-resolution models, SRDiff and SR3, assessing their effectiveness in enhancing picture resolution, fidelity, and computational efficiency. SRDiff, an edge-guided diffusion model, utilises edge information to improve structural features, whereas SR3, a stochastic denoising diffusion model, incrementally enhances images via noise reduction. The research assesses each model using several datasets, encompassing natural, medical, and synthetic images, to determine generalisability and robustness.", 
+    github: null, 
+    portfolio: null,
+    group: "Image SuperResolution"
+>>>>>>> 887e433b2366f6f4e6604c187334c919334cf1e1
   }
+
+  // 2025 joinees end 
 ];
 
