@@ -20,7 +20,7 @@ export const members = [
   },
   { 
     name: "Suvadip Chakraborty", 
-    program: "M.Tech AI (2024)", 
+    program: "M.Tech AI (2024 - 2026)", 
     research: "Federated Learning", 
     description: "I am working on medical image super-resolution in federated learning settings. My work aims to enable collaborative training across multiple clients while preserving patient privacy and ensuring model generalization to diverse clinical data.", 
     github: "https://github.com/suvchr105", 
@@ -38,7 +38,7 @@ export const members = [
   },
   { 
     name: "Jatin Pankaj Pahuja", 
-    program: "M.Tech DCS (2024)", 
+    program: "M.Tech DCS (2024 - 2026)", 
     research: "Affordable MRI Generation", 
     description: "I am developing methods to reconstruct high-quality MRI images from undersampled K-space data. My goal is to reduce scan times and costs while maintaining diagnostic accuracy for resource-limited healthcare settings.", 
     github: "https://github.com/StrivingMind", 
@@ -47,7 +47,7 @@ export const members = [
   },
   { 
     name: "Varun Raskar", 
-    program: "M.Tech AI (2024)", 
+    program: "M.Tech AI (2024 - 2026)", 
     research: "Medical Image Synthesis and Translation", 
     description: "My research focuses on brain MRI modality translation using generative models. I aim to improve image quality, enable cross-modal synthesis, and expand diagnostic possibilities where certain modalities are unavailable.", 
     github: "https://github.com/SHOCKWAVE07", 
@@ -83,7 +83,7 @@ export const members = [
   },
   { 
     name: "Sweta Srivastava", 
-    program: "M.Tech AI (2022)", 
+    program: "M.Tech AI (2022 - 2024)", 
     research: "Pancreatic Ductal Adenocarcinoma Segmentation", 
     description: "My research aims to improve early detection and segmentation of pancreatic ductal adenocarcinoma using the Segment Anything Model combined with advanced imaging techniques for higher diagnostic precision.", 
     github: "https://github.com/Sweta-25/PDAC.git", 
@@ -137,12 +137,22 @@ export const members = [
   },
   { 
     name: "Jayant Mahawar", 
-    program: "PhD (2020)", 
+    program: "PhD (2020 - 2026)", 
     research: "Medical Image Analysis, Deep Learning", 
     description: "My PhD research focuses on deep learning for chest X-ray analysis, including generative models for disease map visualization to enhance diagnostic trust. I also work on incremental and few-shot learning, coreset selection for efficiency, visual question answering, and knowledge distillation to create lightweight models for resource-limited settings.", 
     github: "https://github.com/mahawar2", 
     portfolio: "https://sites.google.com/iitj.ac.in/jayantmahawar",
     group: "Visual Question Answering"
+  },
+  // 2025 joinnee starts
+  { 
+    name: "Juhi Chaudhary", 
+    program: "PhD (2025)", 
+    research: "Machine Unlearning in Medical AI", 
+    description: "Developing methods for selective knowledge removal in medical foundation and generative models while preserving essential model capabilities.", 
+    github: " https://github.com/Juhi0703", 
+    portfolio: null,
+    group: "Machine Unlearning"
   },
   { 
     name: "Shrusti Jain", 
@@ -152,6 +162,71 @@ export const members = [
     github: " https://github.com/svj31", 
     portfolio: null,
     group: "Affordable MRI synthesis"
+  },
+  { 
+    name: "Hrishita Das", 
+    program: "M.Tech CSE (2025)", 
+    research: "Low-Field to High-Field MRI Enhancement", 
+    description: "My research focuses on developing deep learning and generative modeling approaches for enhancing low-field MRI toward high-field MRI. My work aims to improve image quality while preserving anatomical information in medical imaging.", 
+    github: " https://github.com/hrishita-das", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  },
+  { 
+    name: "Arjun Baidya", 
+    program: "M.Tech AI (2025)", 
+    research: "Dataset PoisoningMachine Unlearning", 
+    description: "I am currently researching robust deep learning defenses at the intersection of dataset poisoning detection and machine unlearning. My work focuses on identifying malicious training interventions, specifically label-flipping poisoning attacks.", 
+    github: "https://github.com/arjunbaidya", 
+    portfolio: null,
+    group: "Machine Unlearning"
+  },
+  { 
+    name: "Kapil Akanksha", 
+    program: "M.Tech AI (2025)", 
+    research: "Medical Visual Question Answering", 
+    description: "I am working on Medical Visual Question Answering using  Vision-Language Models and Large Language Models. My research explores how these models can understand medical information and support clinical conversations.", 
+    github: "https://github.com/akankshakapil", 
+    portfolio: null,
+    group: "Visual Question Answering"
+  },
+  { 
+    name: "Atharv Mahajan", 
+    program: "M.Tech CPS (2025)", 
+    research: "Preventing Attacks on Vision-Language Models (VLMs)", 
+    description: "My research focuses on improving the security and reliability of Vision-Language Models (VLMs) against attacks. The work explores techniques to make these models more robust, consistent, and trustworthy when handling potentially malicious inputs.", 
+    github: "https://github.com/Atharv4mahajan", 
+    portfolio: null,
+    group: "Visual Question Answering"
+  }, 
+  { 
+    name: "Ali Asad Quasim", 
+    program: "M.Tech DCS (2025)", 
+    research: "3D Medical Image Super-Resolution", 
+    description: "My research encompasses around enhancing the diagnostic ability of medical images by exploring and building upon recent generative models for medical image super-resolution using variants of transformers.", 
+    github: "https://github.com/aliasad20", 
+    portfolio: "https://ali-asad-quasim.netlify.app",
+    group: "Image SuperResolution"
+  }, 
+  { 
+    name: "Vidushi Mittal", 
+    program: "M.Tech DCS (2025)", 
+    research: "3D Medical Image Synthesis for Radiotherapy.", 
+    description: "My research focuses on the intersection of deep learning and medical physics, specifically leveraging advanced generative artificial intelligence to synthesize high-quality CTs from CBCT scans. Ultimately, this research aims to improve image reliability and structural accuracy, supporting safer and more precise clinical treatment planning and patient care.", 
+    github: "https://github.com/Vidushi-Mittal", 
+    portfolio: null,
+    group: "Medical Image synthesis"
+  },
+  { 
+    name: "Zobiya Khalid", 
+    program: "M.Tech DCS (2025)", 
+    research: "Federated Unlearning", 
+    description: "My research focuses on developing a task-selective federated unlearning framework that removes corrupted data contributions from heterogeneous classification and/or segmentation tasks by identifying task-specific influence within shared model parameters, while preserving useful knowledge across tasks.", 
+    github: "https://github.com/Zobya", 
+    portfolio: null,
+    group: "Machine Unlearning and Federated Learning"
   }
+  
+  // 2025 joinees end 
 ];
 
