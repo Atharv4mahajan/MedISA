@@ -225,6 +225,8 @@ export const members = [
     github: "https://github.com/Zobya", 
     portfolio: null,
     group: "Machine Unlearning and Federated Learning"
+  },
+  {  
     name: "Priya Barange", 
     program: "M.Tech CSE (2023 - 2025)", 
     research: "Super resolution of x-ray images using diffusion probabilistic models", 
