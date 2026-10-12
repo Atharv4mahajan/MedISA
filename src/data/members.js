@@ -221,7 +221,7 @@ export const members = [
     name: "Zobiya Khalid", 
     program: "M.Tech DCS (2025)", 
     research: "Federated Unlearning", 
-    description: "My research focuses on developing a task-selective federated unlearning framework that removes corrupted data contributions from heterogeneous classification and/or segmentation tasks by identifying task-specific influence within shared model parameters, while preserving useful knowledge across tasks.", 
+    description: "My research focuses on improving federated learning by selectively removing corrupted data contributions while preserving useful knowledge across different tasks.", 
     github: "https://github.com/Zobya", 
     portfolio: null,
     group: "Machine Unlearning and Federated Learning"
@@ -373,6 +373,27 @@ export const members = [
     github:"https://github.com/Laksh-Mendpara/",
     portfolio: null,
     group: null
-  }
+  },
+
+  { 
+    name: "Advaith Moholkar", 
+    program: "B.Tech ES (2024)", 
+    research: " Medical Image Processing and Synthesis for MRI", 
+    description: "My research focuses on translating low-field brain MRI scans into high-field images using deep learning frameworks that combine image processing, MRI physics, and learning-based methods. The goal is to improve image quality and bring out finer details in scans acquired using lower-field MRI systems, potentially enhancing diagnostic utility without requiring costly hardware upgrades.",
+    github:"https://github.com/Advaith1509",
+    portfolio: null,
+    group: null
+  },
+
+  { 
+    name: "Vinamra Gupta", 
+    program: "B.Tech CM (2025)", 
+    research: "Affordable MRI synthesis", 
+    description: "My research focuses on translating low-field brain MRI scans into high-field images using deep learning frameworks that combine image processing, MRI physics, and learning-based methods. The goal is to improve image quality and bring out finer details in scans acquired using lower-field MRI systems, potentially enhancing diagnostic utility without requiring costly hardware upgrades.",
+    github:"https://github.com/Vinamra3215",
+    portfolio: null,
+    group: null
+  },
+
 
 ];
