@@ -105,7 +105,7 @@ export const members = [
     research: "Medical Image Synthesis and Enhancement using Deep Learning", 
     description: "My research focuses on multicontrast MRI synthesis, super-resolution, and accelerated reconstruction. I aim to enhance image quality and diagnostic utility through advanced deep learning approaches.", 
     github: "https://github.com/RINKUSADH", 
-    portfolio: null,
+    portfolio: "https://rinkusadh.github.io/portfolio/",
     group: "Affordable MRI synthesis"
   },
   { 
@@ -374,7 +374,15 @@ export const members = [
     portfolio: null,
     group: null
   },
-
+  { 
+    "name": "Vishal Kishore", 
+    "program": "B.Tech CS (2025)", 
+    "research": "Generative Models, Multimodal Learning, 3D Medical Imaging, Representation Learning.", 
+    "description": "My research focuses on generative modeling and multimodal learning for 3D medical imaging. My work includes MRI–report alignment and 3D MRI generation, with an emphasis on anatomical consistency, fine structural details, and computational efficiency.",
+    "github":" https://github.com/vishalkishore",
+    "portfolio": null,
+    "group": null
+  },
   { 
     name: "Advaith Moholkar", 
     program: "B.Tech ES (2024)", 
