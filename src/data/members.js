@@ -20,15 +20,15 @@ export const members = [
     portfolio: "https://sites.google.com/view/aditi-baheti/home",
     group: null
   },
-  { 
-    name: "Suvadip Chakraborty", 
+  {
+    name: "Suvadip Chakraborty",
     program: "M.Tech AI (2024 - 2026)",
-    currentDesignation: "SDE I, LTM", 
-    research: "Federated Learning", 
-    description: "I am working on medical image super-resolution in federated learning settings. My work aims to enable collaborative training across multiple clients while preserving patient privacy and ensuring model generalization to diverse clinical data.", 
-    github: "https://github.com/suvchr105", 
+    currentDesignation: "SDE I, LTM",
+    research: "Federated Learning",
+    description: "My research focused on medical image super-resolution in federated learning settings. My work aimed to enable collaborative training across multiple clients while preserving patient privacy and ensuring model generalization to diverse clinical data.",
+    github: "https://github.com/suvchr105",
     portfolio: "https://suvadipchakraborty.netlify.app/",
-    group: "Heterogeneous Federated Learning" 
+    group: "Heterogeneous Federated Learning"
   },
   { 
     name: "Harishankar Nagar", 
@@ -40,15 +40,15 @@ export const members = [
     portfolio: null,
     group: null
   },
-  { 
-    name: "Jatin Pankaj Pahuja", 
+  {
+    name: "Jatin Pankaj Pahuja",
     program: "M.Tech DCS (2024 - 2026)",
-    currentDesignation: null, 
-    research: "Affordable MRI Generation", 
-    description: "I am developing methods to reconstruct high-quality MRI images from undersampled K-space data. My goal is to reduce scan times and costs while maintaining diagnostic accuracy for resource-limited healthcare settings.", 
-    github: "https://github.com/StrivingMind", 
+    currentDesignation: null,
+    research: "Affordable MRI Generation",
+    description: "My research focused on developing methods to reconstruct high-quality MRI images from undersampled K-space data. My goal was to reduce scan times and costs while maintaining diagnostic accuracy for resource-limited healthcare settings.",
+    github: "https://github.com/StrivingMind",
     portfolio: null,
-    gorup: "Affordable MRI synthesis"
+    group: "Affordable MRI synthesis"
   },
   { 
     name: "Varun Raskar", 
@@ -100,13 +100,13 @@ export const members = [
     portfolio: null,
     group: null
   },
-  { 
-    name: "Prabhat Ranjan", 
+  {
+    name: "Prabhat Ranjan",
     program: "M.Tech AI (2023 - 2025)",
-    currentDesignation: null, 
-    research: "Affordable MRI", 
-    description: "I am working on developing CycleGAN-based MRI modality translation techniques to reduce dependence on multi-sequence scans, enabling more accessible and cost-effective imaging solutions.", 
-    github: "https://github.com/M23CSA017", 
+    currentDesignation: null,
+    research: "Affordable MRI",
+    description: "My research focused on developing CycleGAN-based MRI modality translation techniques to reduce dependence on multi-sequence scans, enabling more accessible and cost-effective imaging solutions.",
+    github: "https://github.com/M23CSA017",
     portfolio: null,
     group: null
   },
@@ -130,13 +130,13 @@ export const members = [
     portfolio: "http://obedjamir.firstpick.co.in/",
     group: "Heterogeneous Federated Learning"
   },
-  { 
-    name: "Shilajit Banerjee", 
+  {
+    name: "Shilajit Banerjee",
     program: "M.Tech AI (2022 - 2024)",
-    currentDesignation: "Researcher, TCS", 
-    research: "Medical Image Analysis, Multimodal AI, Computer Vision, Deep Learning", 
-    description: "I am currently employed as a Researcher at TCS Research (Formerly TRDDC), working in the Connected Digital Health Group under the Life Sciences Division. My research focuses on medical image analysis and multimodal AI, particularly the integration of imaging and textual data to improve diagnostic and clinical understanding.", 
-    github: "https://github.com/Shilajit77", 
+    currentDesignation: "Researcher, TCS",
+    research: "Medical Image Analysis, Multimodal AI, Computer Vision, Deep Learning",
+    description: "My research focused on medical image analysis and multimodal AI, particularly the integration of imaging and textual data to improve diagnostic and clinical understanding.",
+    github: "https://github.com/Shilajit77",
     portfolio: null,
     group: null
   },
@@ -285,7 +285,7 @@ export const members = [
   ,
   { 
     name: "Devi Prasad Maharathy", 
-    program: "M.Tech AI (2022 - 2025)",
+    program: "B.Tech AI (2022 - 2025)",
     currentDesignation: "Data Scientist, Swiggy", 
     research: "Few-shot learning, class-incremental learning, medical image analysis", 
     description: "Attention-Based Few-Shot Diagnosis of Chest X-Rays Using Semantic Signatures:This work presents a few-shot learning framework for chest X-ray diagnosis designed to address the challenge of limited labeled medical imaging data. The proposed approach uses an attention mechanism to improve the extraction of diagnostically relevant visual features from chest X-rays. It further incorporates semantic signatures representing abnormalities as auxiliary information, guiding the few-shot learning process and improving the model's ability to generalize from limited examples. Experiments on multiple publicly available chest X-ray datasets demonstrate performance improvements of up to 8% over several existing state-of-the-art few-shot learning approaches..", 
