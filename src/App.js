@@ -11,6 +11,7 @@ import { Highlights } from "./components/Highlights";
 import { News } from "./components/News";          // ✅ Import News
 import { Publications } from "./components/Publications";
 import { Contact } from "./components/Contact";
+import { ResearchShowcase } from "./components/ResearchShowcase";
 
 // Example pages for routes
 import People from './pages/People';
@@ -35,6 +36,7 @@ const HomePage = () => {
     <>
       <Banner />
       <Highlights />
+      <ResearchShowcase />
       <News />
       <Publications />
       <Contact />

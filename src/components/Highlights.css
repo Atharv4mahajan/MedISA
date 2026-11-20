@@ -1,0 +1,139 @@
+/* Highlights & Research Overview Modern Light Styling */
+.overview-section {
+  padding: 70px 0 60px 0;
+  background: #f8fafc;
+  position: relative;
+  overflow: hidden;
+}
+
+.overview-glass-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.overview-logo-frame {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+  transition: transform 0.3s ease;
+}
+
+.overview-logo-frame:hover {
+  transform: translateY(-4px);
+}
+
+.overview-logo-img {
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo-glow-ring {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 26px;
+  border: 2px dashed rgba(2, 132, 199, 0.3);
+  pointer-events: none;
+  animation: rotateGlow 25s linear infinite;
+}
+
+@keyframes rotateGlow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.overview-badge-tag {
+  display: inline-block;
+  background: rgba(2, 132, 199, 0.08);
+  color: #0284c7;
+  border: 1px solid rgba(2, 132, 199, 0.2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.overview-heading {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+}
+
+.overview-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #475569;
+  text-align: justify;
+  margin: 0;
+}
+
+/* 4 Pillars Grid */
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+  padding-top: 36px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.pillar-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.pillar-item:hover {
+  background: #ffffff;
+  border-color: #0284c7;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(2, 132, 199, 0.1);
+}
+
+.pillar-icon {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.pillar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.pillar-detail {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #64748b;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .overview-glass-card {
+    padding: 30px;
+  }
+  .overview-heading {
+    font-size: 1.8rem;
+  }
+}

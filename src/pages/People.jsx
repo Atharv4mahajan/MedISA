@@ -55,6 +55,23 @@ const People = () => {
   const sortByYear = (list) =>
     [...list].sort((a, b) => getYears(a.program).start - getYears(b.program).start);
 
+  const sortPastMTech = (list) => {
+    const priorityNames = ["varun", "nivedita", "suvadip", "jatin"];
+
+    return [...list].sort((a, b) => {
+      const aFirst = a.name.toLowerCase().split(" ")[0];
+      const bFirst = b.name.toLowerCase().split(" ")[0];
+      const aIdx = priorityNames.indexOf(aFirst);
+      const bIdx = priorityNames.indexOf(bFirst);
+
+      if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx;
+      if (aIdx !== -1) return -1;
+      if (bIdx !== -1) return 1;
+
+      return getYears(a.program).start - getYears(b.program).start;
+    });
+  };
+
   const groupByProgram = (list) => {
     const groups = { PhD: [], "M.Tech": [], "B.Tech": [] };
     list.forEach((m) => {
@@ -126,7 +143,7 @@ const People = () => {
     </Card>
   );
 
-  const renderGroupedMembers = (membersList) => {
+  const renderGroupedMembers = (membersList, isPast = false) => {
     const groups = groupByProgram(membersList);
     const programOrder = ["PhD", "M.Tech", "B.Tech"];
     return programOrder.map(
@@ -135,7 +152,10 @@ const People = () => {
         groups[prog].length > 0 && (
           <div key={prog}>
             <h3 style={{ color: "gray", marginTop: "30px", marginBottom: "20px" }}>{prog}</h3>
-            {sortByYear(groups[prog]).map(renderMemberCard)}
+            {(isPast && prog === "M.Tech"
+              ? sortPastMTech(groups[prog])
+              : sortByYear(groups[prog])
+            ).map(renderMemberCard)}
           </div>
         )
     );
@@ -214,12 +234,12 @@ const People = () => {
         <h2 className="mb-4 text-center" style={{ color: "black", fontWeight: 600, letterSpacing: "0.5px" }}>
           Present Members
         </h2>
-        {renderGroupedMembers(currentMembers)}
+        {renderGroupedMembers(currentMembers, false)}
 
         <h2 className="mb-4 text-center" style={{ color: "black", fontWeight: 600, letterSpacing: "0.5px" }}>
           Past Members
         </h2>
-        {renderGroupedMembers(alumni)}
+        {renderGroupedMembers(alumni, true)}
       </Container>
     </div>
   );

@@ -1,0 +1,157 @@
+/* Pure Hand-Crafted Vector Animated Stage */
+.pure-animated-canvas-container {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pure-animated-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Traveling Animated Flow Streams */
+.anim-flow-line {
+  animation: svgDash 1.4s linear infinite;
+}
+
+.anim-flow-line-fast {
+  animation: svgDash 0.8s linear infinite;
+}
+
+@keyframes svgDash {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+/* Flow Particles Animation along SAFE-Diff Pipeline */
+.anim-particle-p1 {
+  animation: travelP1 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes travelP1 {
+  0% {
+    cx: 120px;
+    cy: 345px;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  40% {
+    cx: 285px;
+    cy: 512px;
+  }
+  70% {
+    cx: 520px;
+    cy: 505px;
+  }
+  100% {
+    cx: 700px;
+    cy: 510px;
+    opacity: 0;
+  }
+}
+
+.anim-particle-p2 {
+  animation: travelP2 3.5s 1.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes travelP2 {
+  0% {
+    cx: 285px;
+    cy: 530px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    cx: 340px;
+    cy: 577px;
+  }
+  85% {
+    cx: 452px;
+    cy: 577px;
+  }
+  100% {
+    cx: 452px;
+    cy: 605px;
+    opacity: 0;
+  }
+}
+
+.anim-particle-p3 {
+  animation: travelP3 3.5s 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes travelP3 {
+  0% {
+    cx: 740px;
+    cy: 530px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  60% {
+    cx: 610px;
+    cy: 577px;
+  }
+  90% {
+    cx: 485px;
+    cy: 577px;
+  }
+  100% {
+    cx: 452px;
+    cy: 620px;
+    opacity: 0;
+  }
+}
+
+/* Flow Particle along Federated Learning Communication Loops */
+.anim-fed-pulse {
+  animation: travelFed 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes travelFed {
+  0% {
+    cx: 235px;
+    cy: 158px;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  35% {
+    cx: 360px;
+    cy: 158px;
+  }
+  65% {
+    cx: 520px;
+    cy: 158px;
+  }
+  85% {
+    cx: 700px;
+    cy: 158px;
+  }
+  100% {
+    cx: 875px;
+    cy: 158px;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .pure-animated-canvas-container {
+    padding: 12px;
+  }
+}

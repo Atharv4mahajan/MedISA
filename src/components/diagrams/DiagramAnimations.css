@@ -1,0 +1,194 @@
+/* Animated Architecture Diagram Container */
+.animated-diagram-container {
+  width: 100%;
+  background: radial-gradient(circle at 50% 30%, #1e1e38 0%, #0d1117 100%);
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.diagram-header-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.diagram-mode-badge {
+  background: linear-gradient(135deg, #0284c7, #38bdf8);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(56, 189, 248, 0.3);
+}
+
+.diagram-round-badge {
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  color: #a5b4fc;
+  font-size: 0.8rem;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.diagram-hint {
+  color: #94a3b8;
+  font-size: 0.82rem;
+  font-style: italic;
+}
+
+.btn-diagram-step {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #f1f5f9;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-diagram-step:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+}
+
+/* SVG Canvas */
+.svg-canvas-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.architecture-svg {
+  width: 100%;
+  height: auto;
+  min-width: 680px;
+  display: block;
+}
+
+/* Diagram Nodes and Interactive Hovering */
+.diagram-node {
+  cursor: pointer;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.diagram-node:hover,
+.active-node {
+  filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.6));
+}
+
+/* Stream Lines & Flow Animations */
+.stream-line {
+  animation: dashFlow 1.8s linear infinite;
+}
+
+.stream-line-fast {
+  animation: dashFlow 1s linear infinite;
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+/* Pulsing Dots */
+.pulsing-dot {
+  animation: pulseGlow 1.6s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    r: 4;
+    opacity: 0.7;
+  }
+  50% {
+    r: 7;
+    opacity: 1;
+    filter: drop-shadow(0 0 6px currentColor);
+  }
+}
+
+.pulse-server-layer {
+  animation: serverLayerPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes serverLayerPulse {
+  0% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px #38bdf8);
+  }
+}
+
+/* Step Cards */
+.diagram-step-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.step-pill {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.step-pill:hover,
+.step-pill-active {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.step-pill-title {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #38bdf8;
+  margin-bottom: 4px;
+}
+
+.step-pill-desc {
+  display: block;
+  font-size: 0.76rem;
+  color: #94a3b8;
+  line-height: 1.35;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .animated-diagram-container {
+    padding: 16px;
+  }
+  .diagram-header-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .diagram-step-cards {
+    grid-template-columns: 1fr;
+  }
+}

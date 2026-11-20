@@ -1,5 +1,15 @@
 export const members = [
   { 
+    name: "Varun Raskar", 
+    program: "M.Tech AI (2024 - 2026)",
+    currentDesignation: "Software Engineer, Mahindra Home Finance", 
+    research: "Medical Image Synthesis and Translation", 
+    description: "My research focuses on brain MRI modality translation using generative models. I aim to improve image quality, enable cross-modal synthesis, and expand diagnostic possibilities where certain modalities are unavailable.", 
+    github: "https://github.com/SHOCKWAVE07", 
+    portfolio: null,
+    group: "Affordable MRI synthesis"
+  },
+  { 
     name: "Nivedita Gupta", 
     program: "M.Tech CSE (2024 - 2026)",
     currentDesignation: null, 
@@ -8,17 +18,6 @@ export const members = [
     github: "https://github.com/NiveditaGuptaaa", 
     portfolio: null,
     group: "Image SuperResolution"
-  },
-
-  { 
-    name: "Aditi Ashish Baheti", 
-    program: "M.Tech AI (2023 - 2025)",
-    currentDesignation: "Senior Data Scientist, Inxite Out", 
-    research: "Super-resolution of Medical Images", 
-    description: "Exploring techniques to enhance the resolution of CT images for improved medical diagnosis. My research focuses on leveraging anatomical context and adaptive learning strategies to generate high-quality, detail-preserving outputs.", 
-    github: "https://github.com/bahetiaditi", 
-    portfolio: "https://sites.google.com/view/aditi-baheti/home",
-    group: null
   },
   {
     name: "Suvadip Chakraborty",
@@ -29,16 +28,6 @@ export const members = [
     github: "https://github.com/suvchr105",
     portfolio: "https://suvadipchakraborty.netlify.app/",
     group: "Heterogeneous Federated Learning"
-  },
-  { 
-    name: "Harishankar Nagar", 
-    program: "M.Tech-PhD AI (2024)",
-    currentDesignation: null, 
-    research: "Reinforcement Learning", 
-    description: "My research focuses on multi-agent coordination in reinforcement learning environments, aiming to develop scalable strategies that enable agents to collaborate efficiently and adapt to complex, dynamic tasks.", 
-    github: "https://github.com/Thaniwal", 
-    portfolio: null,
-    group: null
   },
   {
     name: "Jatin Pankaj Pahuja",
@@ -51,14 +40,24 @@ export const members = [
     group: "Affordable MRI synthesis"
   },
   { 
-    name: "Varun Raskar", 
-    program: "M.Tech AI (2024 - 2026)",
-    currentDesignation: "Software Engineer, Mahindra Home Finance", 
-    research: "Medical Image Synthesis and Translation", 
-    description: "My research focuses on brain MRI modality translation using generative models. I aim to improve image quality, enable cross-modal synthesis, and expand diagnostic possibilities where certain modalities are unavailable.", 
-    github: "https://github.com/SHOCKWAVE07", 
+    name: "Aditi Ashish Baheti", 
+    program: "M.Tech AI (2023 - 2025)",
+    currentDesignation: "Senior Data Scientist, Inxite Out", 
+    research: "Super-resolution of Medical Images", 
+    description: "Exploring techniques to enhance the resolution of CT images for improved medical diagnosis. My research focuses on leveraging anatomical context and adaptive learning strategies to generate high-quality, detail-preserving outputs.", 
+    github: "https://github.com/bahetiaditi", 
+    portfolio: "https://sites.google.com/view/aditi-baheti/home",
+    group: null
+  },
+  { 
+    name: "Harishankar Nagar", 
+    program: "M.Tech-PhD AI (2024)",
+    currentDesignation: null, 
+    research: "Reinforcement Learning", 
+    description: "My research focuses on multi-agent coordination in reinforcement learning environments, aiming to develop scalable strategies that enable agents to collaborate efficiently and adapt to complex, dynamic tasks.", 
+    github: "https://github.com/Thaniwal", 
     portfolio: null,
-    group: "Affordable MRI synthesis"
+    group: null
   },
   { 
     name: "Shoiab Shafi", 
